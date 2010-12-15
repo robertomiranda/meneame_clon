@@ -1,0 +1,5 @@
+#Wed Dec 15 11:38:46 COT 2010
+ignore-auto-install-sqlite3-ruby-1.2.1=true
+eclipse.preferences.version=1
+prompt_to_auto_install_gems=true
+ignore-auto-install-mongrel-1.1.5=true

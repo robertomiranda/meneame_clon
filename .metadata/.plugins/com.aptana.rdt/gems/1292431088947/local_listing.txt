@@ -1,0 +1,548 @@
+abstract (1.0.0)
+    Author: makoto kuwata
+    Homepage: http://rubyforge.org/projects/abstract
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    a library which enable you to define abstract method in Ruby
+
+actionmailer (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/actionmailer
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Email composition, delivery, and receiving framework (part of
+    Rails).
+
+actionpack (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/actionpack
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Web-flow and rendering framework putting the VC in MVC (part of
+    Rails).
+
+activemodel (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activemodel
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A toolkit for building modeling frameworks (part of Rails).
+
+activerecord (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activerecord
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Object-relational mapper framework (part of Rails).
+
+activeresource (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activeresource
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    REST modeling framework (part of Rails).
+
+activesupport (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activesupport
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A toolkit of support libraries and Ruby core extensions extracted
+    from the Rails framework.
+
+apetag (1.1.2)
+    Author: Jeremy Evans
+    Rubyforge: http://rubyforge.org/projects/apetag
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    APEv2 Tag Reader/Writer
+
+arel (2.0.6, 2.0.4)
+    Authors: Aaron Patterson, Bryan Halmkamp, Emilio Tagua, Nick Kallen
+    Rubyforge: http://rubyforge.org/projects/arel
+    Homepage: http://github.com/rails/arel
+    Installed at (2.0.6): /usr/lib/ruby/gems/1.8
+                 (2.0.4): /usr/lib/ruby/gems/1.8
+
+    Arel is a Relational Algebra for Ruby
+
+builder (2.1.2)
+    Author: Jim Weirich
+    Homepage: http://onestepback.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Builders for MarkUp.
+
+bundler (1.0.7)
+    Authors: Carl Lerche, Yehuda Katz, André Arko
+    Rubyforge: http://rubyforge.org/projects/bundler
+    Homepage: http://gembundler.com
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    The best way to manage your application's dependencies
+
+cgi_multipart_eof_fix (2.5.0)
+    Author: Evan Weaver
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Homepage:
+    http://blog.evanweaver.com/pages/code#cgi_multipart_eof_fix
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Fix an exploitable bug in CGI multipart parsing.
+
+cicphash (1.0.0)
+    Author: Jeremy Evans
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Case Insensitive Cash Preserving Hash
+
+columnize (0.3.2)
+    Author: R. Bernstein
+    Rubyforge: http://rubyforge.org/projects/columnize
+    Homepage: http://rubyforge.org/projects/rocky-hacks/columnize
+    License: GPL2
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Module to format an Array as an Array of String aligned in columns
+
+configuration (1.2.0)
+    Author: Ara T. Howard
+    Rubyforge: http://rubyforge.org/projects/codeforpeople
+    Homepage: http://github.com/ahoward/configuration/tree/master
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    configuration
+
+diff-lcs (1.1.2)
+    Author: 
+    Rubyforge: http://rubyforge.org/projects/ruwiki
+    Homepage: http://rubyforge.org/projects/ruwiki/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Provides a list of changes that represent the difference between two
+    sequenced collections.
+
+erubis (2.6.6)
+    Author: makoto kuwata
+    Rubyforge: http://rubyforge.org/projects/erubis
+    Homepage: http://www.kuwata-lab.com/erubis/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    a fast and extensible eRuby implementation which supports
+    multi-language
+
+factory_girl (2.0.0.beta1, 1.3.2)
+    Author: Joe Ferris
+    Homepage: http://thoughtbot.com/projects/factory_girl
+    Installed at (2.0.0.beta1): /usr/lib/ruby/gems/1.8
+                 (1.3.2): /usr/lib/ruby/gems/1.8
+
+    factory_girl provides a framework and DSL for defining and using
+    model instance factories.
+
+factory_girl_rails (1.1.beta1, 1.0)
+    Author: Joe Ferris
+    Homepage: http://github.com/thoughtbot/factory_girl_rails
+    Installed at (1.1.beta1): /usr/lib/ruby/gems/1.8
+                 (1.0): /usr/lib/ruby/gems/1.8
+
+    factory_girl_rails provides integration between factory_girl and
+    rails 3
+
+fakeweb (1.3.0)
+    Authors: Chris Kampmeier, Blaine Cook
+    Rubyforge: http://rubyforge.org/projects/fakeweb
+    Homepage: http://github.com/chrisk/fakeweb
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A tool for faking responses to HTTP requests
+
+fastthread (1.0.7)
+    Author: MenTaLguY <mental@rydia.net>
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Optimized replacement for thread.rb primitives
+
+flacinfo-rb (0.4)
+    Author: Darren Kirby
+    Rubyforge: http://rubyforge.org/projects/flacinfo-rb
+    Homepage: http://badcomputer.org/unix/code/flacinfo/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Pure Ruby library for accessing metadata from Flac files
+
+gem_plugin (0.2.3)
+    Author: Zed A. Shaw
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A plugin system based on rubygems that uses dependencies only
+
+haml (3.0.24)
+    Authors: Nathan Weizenbaum, Chris Eppstein, Hampton Catlin
+    Rubyforge: http://rubyforge.org/projects/haml
+    Homepage: http://haml-lang.com/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    An elegant, structured XHTML/XML templating engine. Comes with Sass,
+    a similar CSS templating engine.
+
+heroku (1.14.6)
+    Author: Heroku
+    Homepage: http://github.com/heroku/heroku
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Client library and CLI to deploy Rails apps on Heroku.
+
+i18n (0.5.0)
+    Authors: Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller,
+    Saimon Moore
+    Rubyforge: http://rubyforge.org/projects/[none]
+    Homepage: http://github.com/svenfuchs/i18n
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    New wave Internationalization support for Ruby
+
+json (1.4.6)
+    Author: Florian Frank
+    Rubyforge: http://rubyforge.org/projects/json
+    Homepage: http://flori.github.com/json
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    JSON Implementation for Ruby
+
+json_pure (1.4.6)
+    Author: Florian Frank
+    Rubyforge: http://rubyforge.org/projects/json
+    Homepage: http://flori.github.com/json
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    JSON Implementation for Ruby
+
+kgio (2.0.0)
+    Author: kgio hackers
+    Rubyforge: http://rubyforge.org/projects/rainbows
+    Homepage: http://bogomips.org/kgio/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    kinder, gentler I/O for Ruby
+
+launchy (0.3.7)
+    Author: Jeremy Hinegardner
+    Rubyforge: http://rubyforge.org/projects/copiousfreetime
+    Homepage: http://copiousfreetime.rubyforge.org/launchy/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Launchy is helper class for launching cross-platform applications in
+    a fire and forget manner
+
+linecache (0.43)
+    Author: R. Bernstein
+    Rubyforge: http://rubyforge.org/projects/rocky-hacks
+    Homepage: http://rubyforge.org/projects/rocky-hacks/linecache
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Read file with caching
+
+mail (2.2.12)
+    Author: Mikel Lindsaar
+    Homepage: http://github.com/mikel/mail
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Mail provides a nice Ruby DSL for making, sending and reading
+    emails.
+
+memoize (1.3.1)
+    Author: Daniel J. Berger
+    Rubyforge: http://rubyforge.org/projects/shards
+    Homepage: http://www.rubyforge.org/projects/shards
+    License: Artistic 2.0
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Speeds up methods at the cost of memory (or disk space)
+
+mime-types (1.16)
+    Author: Austin Ziegler
+    Rubyforge: http://rubyforge.org/projects/mime-types
+    Homepage: http://mime-types.rubyforge.org/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Manages a MIME Content-Type database that will return the
+    Content-Type for a given filename.
+
+mp4info (1.7.3)
+    Author: arbarlow
+    Homepage: http://github.com/arbarlow/ruby-mp4info/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Rubygem for getting and setting mp4 info
+
+mysql2 (0.2.6)
+    Author: Brian Lopez
+    Homepage: http://github.com/brianmario/mysql2
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A simple, fast Mysql library for Ruby, binding to libmysql
+
+oauth (0.4.4)
+    Authors: Pelle Braendgaard, Blaine Cook, Larry Halff, Jesse Clark,
+    Jon Crosby, Seth Fitzsimmons, Matt Sanford, Aaron Quint
+    Rubyforge: http://rubyforge.org/projects/oauth
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    OAuth Core Ruby implementation
+
+polyglot (0.3.1)
+    Author: Clifford Heath
+    Rubyforge: http://rubyforge.org/projects/polyglot
+    Homepage: http://polyglot.rubyforge.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Allows custom language loaders for specified file extensions to be
+    hooked into require
+
+rack (1.2.1)
+    Author: Christian Neukirchen
+    Rubyforge: http://rubyforge.org/projects/rack
+    Homepage: http://rack.rubyforge.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    a modular Ruby webserver interface
+
+rack-mount (0.6.13)
+    Author: Joshua Peek
+    Homepage: http://github.com/josh/rack-mount
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Stackable dynamic tree based Rack router
+
+rack-test (0.5.6)
+    Author: Bryan Helmkamp
+    Rubyforge: http://rubyforge.org/projects/rack-test
+    Homepage: http://github.com/brynary/rack-test
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Simple testing API built on Rack
+
+rails (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/rails
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Full-stack web application framework.
+
+rails3-generators (0.14.0)
+    Authors: Jose Valim, Anuj Dutta, Paul Berry, Jeff Tucker, Louis T.,
+    Jai-Gouk Kim, Darcy Laycock, Peter Haza, Peter Gumeson, Kristian
+    Mandrup, Alejandro Juarez
+    Homepage: http://github.com/indirect/rails3-generators
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Rails 3 compatible generators
+
+railties (3.0.3)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/rails
+    Homepage: http://www.rubyonrails.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Tools for creating, working with, and running Rails applications.
+
+rake (0.8.7)
+    Author: Jim Weirich
+    Rubyforge: http://rubyforge.org/projects/rake
+    Homepage: http://rake.rubyforge.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Ruby based make-like utility.
+
+rcov (0.9.9)
+    Authors: Relevance, Chad Humphries (spicycode), Aaron Bedra
+    (abedra), Jay McGaffigan(hooligan495), Mauricio Fernandez
+    Homepage: http://github.com/relevance/rcov
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Code coverage analysis tool for Ruby
+
+redcar (0.9.0)
+    Author: Daniel Lucraft
+    Homepage: http://redcareditor.com
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A JRuby text editor.
+
+rest-client (1.6.1)
+    Authors: Adam Wiggins, Julien Kirch
+    Rubyforge: http://rubyforge.org/projects/rest-client
+    Homepage: http://github.com/archiloque/rest-client
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Simple REST client for Ruby, inspired by microframework syntax for
+    specifying actions.
+
+rspec (2.2.0, 1.3.1)
+    Authors: David Chelimsky, Chad Humphries
+    Rubyforge: http://rubyforge.org/projects/rspec
+    Homepage: http://github.com/rspec/rspec
+    Installed at (2.2.0): /usr/lib/ruby/gems/1.8
+                 (1.3.1): /usr/lib/ruby/gems/1.8
+
+    rspec-2.2.0
+
+rspec-core (2.2.1)
+    Authors: Chad Humphries, David Chelimsky
+    Rubyforge: http://rubyforge.org/projects/rspec
+    Homepage: http://github.com/rspec/rspec-core
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    rspec-core-2.2.1
+
+rspec-expectations (2.2.0)
+    Authors: David Chelimsky, Chad Humphries
+    Rubyforge: http://rubyforge.org/projects/rspec
+    Homepage: http://github.com/rspec/rspec-expectations
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    rspec-expectations-2.2.0
+
+rspec-mocks (2.2.0)
+    Authors: David Chelimsky, Chad Humphries
+    Rubyforge: http://rubyforge.org/projects/rspec
+    Homepage: http://github.com/rspec/rspec-mocks
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    rspec-mocks-2.2.0
+
+rspec-rails (2.2.1)
+    Author: David Chelimsky
+    Rubyforge: http://rubyforge.org/projects/rspec
+    Homepage: http://github.com/rspec/rspec-rails
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    rspec-rails-2.2.1
+
+ruby-audioinfo (0.1.7)
+    Authors: Guillaume Pierronnet, Marcello Barnaba
+    Homepage: http://ruby-audioinfo.rubyforge.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Unified audio info access library
+
+ruby-debug (0.10.4)
+    Author: Kent Sibilev
+    Rubyforge: http://rubyforge.org/projects/ruby-debug
+    Homepage: http://rubyforge.org/projects/ruby-debug/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Command line interface (CLI) for ruby-debug-base
+
+ruby-debug-base (0.10.4, 0.10.3)
+    Author: Kent Sibilev
+    Rubyforge: http://rubyforge.org/projects/ruby-debug
+    Homepage: http://rubyforge.org/projects/ruby-debug/
+    Installed at (0.10.4): /usr/lib/ruby/gems/1.8
+                 (0.10.3): /usr/lib/ruby/gems/1.8
+
+    Fast Ruby debugger - core component
+
+ruby-debug-ide (0.4.5)
+    Author: Markus Barchfeld, Martin Krauskopf
+    Rubyforge: http://rubyforge.org/projects/debug-commons
+    Homepage: http://rubyforge.org/projects/debug-commons/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    IDE interface for ruby-debug.
+
+ruby-mp3info (0.6.13)
+    Author: Guillaume Pierronnet
+    Rubyforge: http://rubyforge.org/projects/ruby-mp3info
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    ruby-mp3info is a pure-ruby library to retrieve low level
+    informations on mp3 files and manipulate id3v1 and id3v2 tags
+
+ruby-ogginfo (0.4.2)
+    Author: Guillaume Pierronnet
+    Rubyforge: http://rubyforge.org/projects/ruby-ogginfo
+    Homepage: http://ruby-ogginfo.rubyforge.org/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    ruby-ogginfo is a pure-ruby library that gives low level
+    informations on ogg files
+
+rubyzip (0.9.4)
+    Author: Thomas Sondergaard
+    Homepage: http://rubyzip.sourceforge.net/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    rubyzip is a ruby module for reading and writing zip files
+
+sinatra (1.1.0)
+    Authors: Blake Mizerany, Ryan Tomayko, Simon Rozet, Konstantin Haase
+    Rubyforge: http://rubyforge.org/projects/sinatra
+    Homepage: http://sinatra.rubyforge.org
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Classy web-development dressed in a DSL
+
+thor (0.14.6)
+    Authors: Yehuda Katz, José Valim
+    Homepage: http://github.com/wycats/thor
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A scripting framework that replaces rake, sake and rubigen
+
+tilt (1.1)
+    Author: Ryan Tomayko
+    Rubyforge: http://rubyforge.org/projects/wink
+    Homepage: http://github.com/rtomayko/tilt/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Generic interface to multiple Ruby template engines
+
+treetop (1.4.9)
+    Author: Nathan Sobo
+    Homepage: http://functionalform.blogspot.com
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    A Ruby-based text parsing and interpretation DSL
+
+twitter_oauth (0.4.3)
+    Author: Richard Taylor
+    Rubyforge: http://rubyforge.org/projects/twitter_oauth
+    Homepage: http://github.com/moomerman/twitter_oauth
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    twitter_oauth is a Ruby client for the Twitter API using OAuth.
+
+tzinfo (0.3.23)
+    Author: Philip Ross
+    Rubyforge: http://rubyforge.org/projects/tzinfo
+    Homepage: http://tzinfo.rubyforge.org/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Daylight-savings aware timezone library
+
+unicorn (3.0.1)
+    Author: Unicorn hackers
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Homepage: http://unicorn.bogomips.org/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Rack HTTP server for fast clients and Unix
+
+wmainfo-rb (0.6)
+    Author: Darren Kirby
+    Rubyforge: http://rubyforge.org/projects/wmainfo-rb
+    Homepage: http://badcomputer.org/unix/code/wmainfo/
+    Installed at: /usr/lib/ruby/gems/1.8
+
+    Pure Ruby lib for accessing info/tags from wma/wmv files
