@@ -2,8 +2,10 @@
 
 <table>
   <tr>
+  	
     <th>User</th>
     <th>Uid</th>
+	<th>Provider</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,8 +13,10 @@
 
 <% @authentications.each do |authentication| %>
   <tr>
+  	
     <td><%= authentication.user_id %></td>
     <td><%= authentication.uid %></td>
+	<td><%= authentication.provider %></td>
     <td><%= link_to 'Show', authentication %></td>
     <td><%= link_to 'Edit', edit_authentication_path(authentication) %></td>
     <td><%= link_to 'Destroy', authentication, :confirm => 'Are you sure?', :method => :delete %></td>
@@ -20,6 +24,5 @@
 <% end %>
 </table>
 
-<br />
 
-<%= link_to 'New Authentication', new_authentication_path %>
+
