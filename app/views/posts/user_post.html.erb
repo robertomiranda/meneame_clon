@@ -1,0 +1,14 @@
+<h1><%= link_to "Posts", posts_path %></h1>
+<h2>My Posts</h2>
+<% @posts = current_user.posts %>
+<%for post in @posts%>
+<h2><%= link_to "#{post.title}", post.url  %></h2>
+<p><%= post.url %></p>
+<p><%= post.description %></p>
+
+<ul>
+	<li><%= link_to "View", post_path(post) %></li>
+	<li><%= link_to "Edit", edit_post_path(post) %></li>
+	<li><%= link_to "Delete", post_path(post), :method => :delete %></li>
+</ul>
+<% end %>

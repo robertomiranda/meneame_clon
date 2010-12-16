@@ -3,11 +3,12 @@ class PostsController < ApplicationController
   def index    
   end
   
-  def show    
+  def show
+    @post = Post.find(params[:id])
   end
   
   def edit
-    
+    @post = Post.find(params[:id])
   end
   
   def update    
@@ -27,8 +28,16 @@ class PostsController < ApplicationController
     end
   end
   
-  def destory
-    
+  def destroy
+    @post_id = params[:id]
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to :action => :index
+  end
+  
+  
+  def user_post
+    redirect_to :action => :index unless user_signed_in?
   end
   
   

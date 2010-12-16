@@ -1,7 +1,7 @@
 Meneame::Application.routes.draw do
   
   match '/auth/:provider/callback' => 'authentications#create'
- # match "users/:user_id/posts/:post_id" => "posts#index", :via => :get
+  match "user/posts" => "posts#user_post", :via => :get
   devise_for :users
   
   
