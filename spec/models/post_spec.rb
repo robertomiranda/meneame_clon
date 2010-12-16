@@ -10,7 +10,7 @@ describe Post do
     @post = Post.new
   end
   
-  it "should not create a new post without user associeted" do
+  it "should not create a new post without user associated" do
     @post.title = "title"
     @post.description = "description"
     @post.url = "http://www.facebook.com/"
