@@ -1,0 +1,26 @@
+<h1>index</h1>	
+<%@post = []%>
+<% if user_signed_in? %>
+	Signed in as <%= current_user.email %>. Not you?
+	<ul> 
+	<li><%= link_to "Sign out", destroy_user_session_path %></li>
+	<li><%= link_to "Create", new_post_path %></li>
+	</ul>		  
+	<% @posts = current_user.posts%>
+<%else%>
+	<%= link_to "Sign up", new_user_registration_path %> or  
+    <%= link_to "Sign in", new_user_session_path %>
+	<% @posts = Post.order("created_at DESC")%>
+<%end%>
+
+<%for post in @posts%>		
+		<h2><%= link_to "#{post.title}", post.url  %></h2>
+		<p><%= post.url %></p>
+		<p><%= post.description %></p>
+		<% if user_signed_in? %>
+			<li><%= link_to "View", post_path(post) %></li>
+			<li><%= link_to "Edit", edit_post_path(post) %></li>
+			<li><%= link_to "Delete", post_path(post), :method => :delete %></li>
+		<% end %>				
+<%end%>
+

@@ -1,14 +1,18 @@
 Meneame::Application.routes.draw do
+  
+  match '/auth/:provider/callback' => 'authentications#create'
+ # match "users/:user_id/posts/:post_id" => "posts#index", :via => :get
   devise_for :users
-  root :to => "home#index"
+  
   
    resources :posts do
     resources :comments, :only => [:create, :destroy]
-   end
+  end
+  resources :authentications
+  root :to => "posts#index"
   
   
   
-  match "users/:user_id/posts/:post_id" => "posts#user_posts", :via => :get
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,0 +1,20 @@
+<h1><%= link_to "Posts", posts_path %></h1>
+<h2>Posts#new</h2>
+
+<%= form_for @post do |f| %>
+  <% if @post.errors.any? %>
+  	<h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>  
+    <ul>  
+    <% @post.errors.full_messages.each do |msg| %>  
+      <li><%= msg %></li>  
+    <% end %>  
+    </ul>  
+  <%end%>
+  <%= f.label :title %><br />
+  <%= f.text_field :title, :class => "clase" %><br />
+  <%= f.label :url %><br />
+  <%= f.text_field :url%><br />
+  <%= f.label :description %><br />
+  <%= f.text_area :description %>
+  <%= submit_tag "Create" %>
+<% end %>

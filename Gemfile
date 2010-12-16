@@ -34,6 +34,7 @@ gem 'mysql2'
 # end
 
 gem 'devise'
+gem 'omniauth'  
 
 group :development, :test do
   gem 'rspec-rails', '> 2.0.0'
