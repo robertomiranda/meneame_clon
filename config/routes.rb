@@ -1,6 +1,15 @@
 Meneame::Application.routes.draw do
   devise_for :users
   root :to => "home#index"
+  
+   resources :posts do
+    resources :comments, :only => [:create, :destroy]
+   end
+  
+  
+  
+  match "users/:user_id/posts/:post_id" => "posts#user_posts", :via => :get
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
