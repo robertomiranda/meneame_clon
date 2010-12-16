@@ -1,12 +1,12 @@
-Meneame::Application.routes.draw do
-  
+Meneame::Application.routes.draw do  
+
   match '/auth/:provider/callback' => 'authentications#create'
   match "user/posts" => "posts#user_post", :via => :get
   devise_for :users
   
   
    resources :posts do
-    resources :comments, :only => [:create, :destroy]
+    resources :comments, :only => [:index,:create, :destroy]
   end
   resources :authentications
   root :to => "posts#index"

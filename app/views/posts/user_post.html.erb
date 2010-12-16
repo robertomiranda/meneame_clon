@@ -6,9 +6,9 @@
 <p><%= post.url %></p>
 <p><%= post.description %></p>
 
-<ul>
-	<li><%= link_to "View", post_path(post) %></li>
+<ul>	
 	<li><%= link_to "Edit", edit_post_path(post) %></li>
 	<li><%= link_to "Delete", post_path(post), :method => :delete %></li>
+	<li><%= post.comments.size %> <%= link_to "comments", post_path(post)  %> </li>
 </ul>
 <% end %>

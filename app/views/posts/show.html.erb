@@ -1,9 +1,28 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<title>Untitled Document</title>
-	</head>
-	<body>
-	</body>
-</html>
+<h1><%= link_to "Posts", posts_path %></h1>
+<h2>Posts#new</h2>
+<h2><%= link_to "#{@post.title}", @post.url  %></h2>
+<p><%= @post.url %></p>
+<p><%= @post.description %></p>
+
+<div id="comments">
+<h2>Comments</h2>
+<%for i in @post.comments%>	
+	<p><%= i.content %></p>
+	<p><%= i.user.email %></p>
+<%end%>
+</div>
+
+<%= form_for [@post, @comment] do |f| %>
+<% if @comment.errors.any? %>
+  	<h2><%= pluralize(@comment.errors.count, "error") %> comment this post from being saved:</h2>  
+    <ul>  
+    <% @comment.errors.full_messages.each do |msg| %>  
+      <li><%= msg %></li>  
+    <% end %>  
+    </ul>  
+  <%end%>
+  
+  <%= f.label :content %><br />
+  <%= f.text_area :content %>
+  <%= submit_tag "Save" %>
+<% end %>	
