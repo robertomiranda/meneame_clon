@@ -1,28 +1,28 @@
 <h1>Listing authentications</h1>
 
 <table>
-  <tr>
-  	
+  <tr>  	
     <th>User</th>
     <th>Uid</th>
 	<th>Provider</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th></th>    
   </tr>
 
 <% @authentications.each do |authentication| %>
-  <tr>
-  	
+  <tr>  	
     <td><%= authentication.user_id %></td>
     <td><%= authentication.uid %></td>
-	<td><%= authentication.provider %></td>
-    <td><%= link_to 'Show', authentication %></td>
-    <td><%= link_to 'Edit', edit_authentication_path(authentication) %></td>
+	<td><%= authentication.provider %></td>    
     <td><%= link_to 'Destroy', authentication, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
+
+<h2>Associate New Accounts</h2>
+<ul>
+	<li><%= link_to 'Twitter', "/auth/twitter" %></li>
+	<li><%= link_to 'Facebook', "/auth/facebook" %></li>
+</ul>
 
 
 

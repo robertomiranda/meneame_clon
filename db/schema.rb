@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101216163924) do
+ActiveRecord::Schema.define(:version => 20101216224706) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id"
@@ -18,6 +18,9 @@ ActiveRecord::Schema.define(:version => 20101216163924) do
     t.string   "provider"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "twitter_token"
+    t.string   "twitter_secret"
+    t.string   "facebook_token"
   end
 
   create_table "comments", :force => true do |t|
