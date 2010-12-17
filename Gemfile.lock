@@ -53,7 +53,6 @@ GEM
       crack (= 0.1.8)
     i18n (0.5.0)
     json (1.4.6)
-    kgio (2.0.0)
     mail (2.2.12)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -130,11 +129,11 @@ GEM
       rspec-core (~> 2.3.0)
       rspec-expectations (~> 2.3.0)
       rspec-mocks (~> 2.3.0)
-    rspec-core (2.3.0)
+    rspec-core (2.3.1)
     rspec-expectations (2.3.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.3.0)
-    rspec-rails (2.3.0)
+    rspec-rails (2.3.1)
       actionpack (~> 3.0)
       activesupport (~> 3.0)
       railties (~> 3.0)
@@ -151,9 +150,6 @@ GEM
       mime-types (>= 1.16)
       oauth (>= 0.4.1)
     tzinfo (0.3.23)
-    unicorn (3.0.1)
-      kgio (~> 2.0.0)
-      rack
     warden (1.0.3)
       rack (>= 1.0.0)
 
@@ -170,4 +166,3 @@ DEPENDENCIES
   rails3-generators
   rspec-rails (> 2.0.0)
   twitter_oauth
-  unicorn
