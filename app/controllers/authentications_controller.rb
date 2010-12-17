@@ -13,8 +13,12 @@ class AuthenticationsController < ApplicationController
       flash[:notice] = "Signed in successfully."
       sign_in_and_redirect(:user, authentication.user)
     elsif current_user
-      puts "/"*100
-      current_user.authentications.create!(:provider => omniauth['provider'], :uid => omniauth['uid'])
+      puts "/"*100      
+      current_user.authentications.create!(:provider => omniauth['provider'], :uid => omniauth['uid'],
+                                           :twitter_token =>  omniauth['provider'] == "twitter" ? omniauth['credentials']['token'] : nil,
+                                           :twitter_secret => omniauth['provider'] == "twitter" ? omniauth['credentials']['secret'] : nil,
+                                           :facebook_token => omniauth['provider'] == "facebook" ? omniauth['credentials']['token'] : nil) 
+                                           
       flash[:notice] = "Authentication successful."
       redirect_to authentications_url    
     end

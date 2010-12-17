@@ -11,7 +11,7 @@ gem 'rails3-generators'
 gem 'mysql2'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+#gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -34,7 +34,9 @@ gem 'mysql2'
 # end
 
 gem 'devise'
-gem 'omniauth'  
+gem 'omniauth'
+gem 'twitter_oauth' 
+gem 'fgraph' 
 
 group :development, :test do
   gem 'rspec-rails', '> 2.0.0'

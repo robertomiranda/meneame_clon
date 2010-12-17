@@ -6,4 +6,9 @@ class Post < ActiveRecord::Base
   validates :url, :presence => true
   validates :description, :presence =>true
   validates :user, :presence => true
+  
+  def to_s
+    self.title + " " + self.url
+  end
+
 end

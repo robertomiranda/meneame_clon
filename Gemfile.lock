@@ -32,6 +32,7 @@ GEM
     arel (2.0.6)
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
+    crack (0.1.8)
     devise (1.1.5)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 1.0.2)
@@ -46,7 +47,13 @@ GEM
       addressable (~> 2.2.2)
       multipart-post (~> 1.0.1)
       rack (>= 1.1.0, < 2)
+    fgraph (0.5.1)
+      httparty (>= 0.5.0)
+    httparty (0.6.1)
+      crack (= 0.1.8)
     i18n (0.5.0)
+    json (1.4.6)
+    kgio (2.0.0)
     mail (2.2.12)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -139,7 +146,14 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
+    twitter_oauth (0.4.3)
+      json (>= 1.1.9)
+      mime-types (>= 1.16)
+      oauth (>= 0.4.1)
     tzinfo (0.3.23)
+    unicorn (3.0.1)
+      kgio (~> 2.0.0)
+      rack
     warden (1.0.3)
       rack (>= 1.0.0)
 
@@ -149,8 +163,11 @@ PLATFORMS
 DEPENDENCIES
   devise
   factory_girl_rails (= 1.1.beta1)
+  fgraph
   mysql2
   omniauth
   rails (= 3.0.3)
   rails3-generators
   rspec-rails (> 2.0.0)
+  twitter_oauth
+  unicorn
