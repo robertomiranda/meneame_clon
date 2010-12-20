@@ -33,6 +33,14 @@ GEM
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
     crack (0.1.8)
+    cucumber (0.10.0)
+      builder (>= 2.1.2)
+      diff-lcs (~> 1.1.2)
+      gherkin (~> 2.3.2)
+      json (~> 1.4.6)
+      term-ansicolor (~> 1.0.5)
+    cucumber-rails (0.3.2)
+      cucumber (>= 0.8.0)
     devise (1.1.5)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 1.0.2)
@@ -49,6 +57,9 @@ GEM
       rack (>= 1.1.0, < 2)
     fgraph (0.5.1)
       httparty (>= 0.5.0)
+    gherkin (2.3.2)
+      json (~> 1.4.6)
+      term-ansicolor (~> 1.0.5)
     httparty (0.6.1)
       crack (= 0.1.8)
     i18n (0.5.0)
@@ -142,6 +153,7 @@ GEM
     ruby-openid-apps-discovery (1.2.0)
       ruby-openid (>= 2.1.7)
     rubyntlm (0.1.1)
+    term-ansicolor (1.0.5)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -152,11 +164,16 @@ GEM
     tzinfo (0.3.23)
     warden (1.0.3)
       rack (>= 1.0.0)
+    webrat (0.7.2)
+      nokogiri (>= 1.2.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  cucumber-rails
   devise
   factory_girl_rails (= 1.1.beta1)
   fgraph
@@ -166,3 +183,4 @@ DEPENDENCIES
   rails3-generators
   rspec-rails (> 2.0.0)
   twitter_oauth
+  webrat
