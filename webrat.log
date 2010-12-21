@@ -1,0 +1,130 @@
+# Logfile created on Mon Dec 20 13:46:12 -0500 2010 by logger.rb/22285
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"\"123456\"", "email"=>"\"beto6626@hotmail.com\""}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/users/sign_in"}
+REQUESTING PAGE: GET users/sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /users/sign_in with {"commit"=>"Sign in", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"123456", "email"=>"beto6626@hotmail.com"}} and HTTP headers {"HTTP_REFERER"=>"users/sign_in"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
