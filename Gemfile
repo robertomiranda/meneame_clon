@@ -44,6 +44,7 @@ group :development, :test do
 end
 
 group :development, :cucumber do
-  gem 'webrat'
+  gem 'capybara'
   gem 'cucumber-rails'
+  gem 'launchy'
 end
